@@ -1,0 +1,54 @@
+.chimney{
+    background-color: black;
+    height: 70px;
+    width: 25px;
+    position: relative;
+    top: 260px;
+    left: 450px;
+}
+.roof{
+    position: relative;
+    top: 190px;
+    left: 400px;
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 100px solid #28940d;
+}
+.window{
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 250px;
+    left: 500px;
+    z-index: 1;
+}
+.main{
+    background-color: rgb(131, 55, 41);
+    height: 250px;
+    width: 300px;
+    position: relative;
+    top: 90px;
+    left: 400px;
+}
+.horizontal-line{
+    background-color: black;
+    height: 100px;
+    width: 5px;
+    z-index: 2;
+    position: relative;
+    top: 0px;
+    left: 48px;
+}
+.vertical-line{
+    background-color: black;
+    height: 5px;
+    width: 100px;
+    z-index: 2;
+    position: relative;
+    top: -50px;
+    left: 0px;
+}
